@@ -1,16 +1,20 @@
-## Hi there 👋
+### Hi there 👋
 
-<!--
-**lluisemper/lluisemper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### A Frontend Developer by day ☼ and an Open Source Contributor by night ☾
 
-Here are some ideas to get you started:
+- ⚙️ I use daily: `node.js`, `react`, `html`, `css`, `typescript`, `javascript`
+- 🌍 Mostly active within the **Node.js community**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Recent Open Source Contributions
+
+**Node.js (runtime):**
+- Added dictionary support to `zstdCompress` and `zstdDecompress` in `zlib`  
+  → Included in the [v24.6.0 release notes](https://nodejs.org/en/blog/release/v24.6.0#notable-changes)
+
+**Node.js (userland):**
+- Author of the [`@nodejs/slow-buffer-to-buffer-alloc-unsafe-slow` codemod](https://app.codemod.com/registry/@nodejs/slow-buffer-to-buffer-alloc-unsafe-slow),  
+  helping migrate away from deprecated APIs in the Node.js ecosystem
+
+**Rsbuild:**
+- Implemented build size diff output for comparing different builds  
+  → Release: https://github.com/web-infra-dev/rsbuild/pull/6716
