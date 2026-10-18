@@ -12,8 +12,7 @@
   → Included in the [v24.6.0 release notes](https://nodejs.org/en/blog/release/v24.6.0#notable-changes)
 
 **Node.js (userland):**
-- Author of the [`@nodejs/slow-buffer-to-buffer-alloc-unsafe-slow` codemod](https://app.codemod.com/registry/@nodejs/slow-buffer-to-buffer-alloc-unsafe-slow),  
-  helping migrate away from deprecated APIs in the Node.js ecosystem
+- Authored the [`@nodejs/slow-buffer-to-buffer-alloc-unsafe-slow` codemod](https://app.codemod.com/registry/@nodejs/slow-buffer-to-buffer-alloc-unsafe-slow) to migrate deprecated `SlowBuffer` usage to `Buffer.allocUnsafeSlow()` ([commit](https://github.com/nodejs/userland-migrations/commit/cf01806bf59c8e3be68217eb92ffab3d6df9b99f)).
 
 **Rsbuild:**
 - Implemented build size diff output for comparing different builds  
